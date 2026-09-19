@@ -1,0 +1,8 @@
+{
+  "name": "Remix Gears \u0026 Spares",
+  "description": "Premium two-wheeler helmets, genuine OEM spares, certified lubricants, and authentic motorcycle gear with instant WhatsApp consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

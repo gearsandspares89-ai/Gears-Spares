@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f8f9fa;
+  --color-surface: #ffffff;
+  --color-surface-dim: #f1f3f6;
+  --color-surface-bright: #ffffff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8f9fa;
+  --color-surface-container: #ffffff;
+  --color-surface-container-high: #f1f3f5;
+  --color-surface-container-highest: #e9ecef;
+  --color-surface-variant: #e2e5ea;
+
+  --color-on-surface: #111827;
+  --color-on-surface-variant: #4b5563;
+  --color-inverse-surface: #1f2937;
+  --color-inverse-on-surface: #f9fafb;
+
+  --color-outline: #9ca3af;
+  --color-outline-variant: #e5e7eb;
+
+  --color-primary: #dc2626;
+  --color-primary-container: #fee2e2;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #991b1b;
+
+  --color-secondary: #111827;
+  --color-secondary-container: #d9f99d;
+  --color-secondary-fixed: #84cc16;
+  --color-secondary-fixed-dim: #65a30d;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #1a2e05;
+
+  --color-tertiary: #16a34a;
+  --color-tertiary-container: #dcfce7;
+  --color-tertiary-fixed: #22c55e;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #14532d;
+
+  --font-chivo: 'Chivo', sans-serif;
+  --font-space: 'Space Grotesk', sans-serif;
+}
+
+:root {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1, h2, h3, h4, .font-headline {
+  font-family: 'Chivo', sans-serif;
+}
+
+/* Custom scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
